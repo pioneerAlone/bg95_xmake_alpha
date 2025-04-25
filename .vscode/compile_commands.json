@@ -1,0 +1,26 @@
+[
+{
+  "directory": "e:\\work\\Code\\xmake\\bg95_pika_alpha",
+  "arguments": ["C:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\bin\\clang.exe", "-c", "-Qunused-arguments", "-Ibg95\\SDK1.1.12\\qapi", "-Ibg95\\SDK1.1.12\\quectel", "-Ibg95\\SDK1.1.12\\threadx_api", "-DQAPI_TXM_MODULE", "-DTXM_MODULE", "-DTX_DAM_QC_CUSTOMIZATIONS", "-DTX_ENABLE_PROFILING", "-DTX_ENABLE_EVENT_TRACE", "-DTX_DISABLE_NOTIFY_CALLBACKS", "-DFX_FILEX_PRESENT", "-DTX_ENABLE_IRQ_NESTING", "-DTX3_CHANGES", "-IC:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\armv7m-none-eabi\\libc\\include", "-IC:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\lib\\clang\\4.0.3\\lib", "-o", "build\\.objs\\bg95_pika_alpha\\windows\\x64\\bg95\\SDK1.1.12\\txm_module_preamble_llvm.S.obj", "bg95\\SDK1.1.12\\txm_module_preamble_llvm.S"],
+  "file": "bg95\\SDK1.1.12\\txm_module_preamble_llvm.S"
+},
+{
+  "directory": "e:\\work\\Code\\xmake\\bg95_pika_alpha",
+  "arguments": ["C:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\bin\\clang.exe", "-c", "-Qunused-arguments", "-marm", "-target", "armv7m-none-musleabi", "-mfloat-abi=soft", "-mcpu=cortex-a7", "-mno-unaligned-access", "-fms-extensions", "-O0", "-g", "-fshort-enums", "-Wbuiltin-macro-redefined", "-Wno-unused-value", "-Ibg95\\SDK1.1.12\\qapi", "-Ibg95\\SDK1.1.12\\quectel", "-Ibg95\\SDK1.1.12\\threadx_api", "-DQAPI_TXM_MODULE", "-DTXM_MODULE", "-DTX_DAM_QC_CUSTOMIZATIONS", "-DTX_ENABLE_PROFILING", "-DTX_ENABLE_EVENT_TRACE", "-DTX_DISABLE_NOTIFY_CALLBACKS", "-DFX_FILEX_PRESENT", "-DTX_ENABLE_IRQ_NESTING", "-DTX3_CHANGES", "-IC:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\armv7m-none-eabi\\libc\\include", "-IC:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\lib\\clang\\4.0.3\\lib", "-o", "build\\.objs\\bg95_pika_alpha\\windows\\x64\\src\\main.c.obj", "src\\main.c"],
+  "file": "src\\main.c"
+},
+{
+  "directory": "e:\\work\\Code\\xmake\\bg95_pika_alpha",
+  "arguments": ["C:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\bin\\clang.exe", "-c", "-Qunused-arguments", "-marm", "-target", "armv7m-none-musleabi", "-mfloat-abi=soft", "-mcpu=cortex-a7", "-mno-unaligned-access", "-fms-extensions", "-O0", "-g", "-fshort-enums", "-Wbuiltin-macro-redefined", "-Wno-unused-value", "-Ibg95\\SDK1.1.12\\qapi", "-Ibg95\\SDK1.1.12\\quectel", "-Ibg95\\SDK1.1.12\\threadx_api", "-DQAPI_TXM_MODULE", "-DTXM_MODULE", "-DTX_DAM_QC_CUSTOMIZATIONS", "-DTX_ENABLE_PROFILING", "-DTX_ENABLE_EVENT_TRACE", "-DTX_DISABLE_NOTIFY_CALLBACKS", "-DFX_FILEX_PRESENT", "-DTX_ENABLE_IRQ_NESTING", "-DTX3_CHANGES", "-IC:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\armv7m-none-eabi\\libc\\include", "-IC:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\lib\\clang\\4.0.3\\lib", "-o", "build\\.objs\\bg95_pika_alpha\\windows\\x64\\bg95\\SDK1.1.12\\quectel\\quectel_std_func.c.obj", "bg95\\SDK1.1.12\\quectel\\quectel_std_func.c"],
+  "file": "bg95\\SDK1.1.12\\quectel\\quectel_std_func.c"
+},
+{
+  "directory": "e:\\work\\Code\\xmake\\bg95_pika_alpha",
+  "arguments": ["C:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\bin\\clang.exe", "-c", "-Qunused-arguments", "-marm", "-target", "armv7m-none-musleabi", "-mfloat-abi=soft", "-mcpu=cortex-a7", "-mno-unaligned-access", "-fms-extensions", "-O0", "-g", "-fshort-enums", "-Wbuiltin-macro-redefined", "-Wno-unused-value", "-Ibg95\\SDK1.1.12\\qapi", "-Ibg95\\SDK1.1.12\\quectel", "-Ibg95\\SDK1.1.12\\threadx_api", "-DQAPI_TXM_MODULE", "-DTXM_MODULE", "-DTX_DAM_QC_CUSTOMIZATIONS", "-DTX_ENABLE_PROFILING", "-DTX_ENABLE_EVENT_TRACE", "-DTX_DISABLE_NOTIFY_CALLBACKS", "-DFX_FILEX_PRESENT", "-DTX_ENABLE_IRQ_NESTING", "-DTX3_CHANGES", "-IC:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\armv7m-none-eabi\\libc\\include", "-IC:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\lib\\clang\\4.0.3\\lib", "-o", "build\\.objs\\bg95_pika_alpha\\windows\\x64\\bg95\\SDK1.1.12\\quectel\\quectel_uart_apis.c.obj", "bg95\\SDK1.1.12\\quectel\\quectel_uart_apis.c"],
+  "file": "bg95\\SDK1.1.12\\quectel\\quectel_uart_apis.c"
+},
+{
+  "directory": "e:\\work\\Code\\xmake\\bg95_pika_alpha",
+  "arguments": ["C:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\bin\\clang.exe", "-c", "-Qunused-arguments", "-marm", "-target", "armv7m-none-musleabi", "-mfloat-abi=soft", "-mcpu=cortex-a7", "-mno-unaligned-access", "-fms-extensions", "-O0", "-g", "-fshort-enums", "-Wbuiltin-macro-redefined", "-Wno-unused-value", "-Ibg95\\SDK1.1.12\\qapi", "-Ibg95\\SDK1.1.12\\quectel", "-Ibg95\\SDK1.1.12\\threadx_api", "-DQAPI_TXM_MODULE", "-DTXM_MODULE", "-DTX_DAM_QC_CUSTOMIZATIONS", "-DTX_ENABLE_PROFILING", "-DTX_ENABLE_EVENT_TRACE", "-DTX_DISABLE_NOTIFY_CALLBACKS", "-DFX_FILEX_PRESENT", "-DTX_ENABLE_IRQ_NESTING", "-DTX3_CHANGES", "-IC:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\armv7m-none-eabi\\libc\\include", "-IC:\\compile_tools\\Snapdragon-llvm-4.0.3-windows64\\lib\\clang\\4.0.3\\lib", "-o", "build\\.objs\\bg95_pika_alpha\\windows\\x64\\bg95\\SDK1.1.12\\quectel\\quectel_utils.c.obj", "bg95\\SDK1.1.12\\quectel\\quectel_utils.c"],
+  "file": "bg95\\SDK1.1.12\\quectel\\quectel_utils.c"
+}]
